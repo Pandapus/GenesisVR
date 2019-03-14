@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "GenesisIsland.h"
+#include "GenesisVR.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, GenesisIsland, "GenesisIsland" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, GenesisVR, "GenesisVR" );

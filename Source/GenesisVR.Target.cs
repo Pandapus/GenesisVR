@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class GenesisIslandTarget : TargetRules
+public class GenesisVRTarget : TargetRules
 {
-	public GenesisIslandTarget(TargetInfo Target) : base(Target)
+	public GenesisVRTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "GenesisIsland" } );
+		ExtraModuleNames.AddRange( new string[] { "GenesisVR" } );
 	}
 }
